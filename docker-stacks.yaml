@@ -1,0 +1,11 @@
+name: docker-stacks-testing
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytest
+  - six  
+  - tabulate
+  # - docker
+  # conda couldn't resolve docker sdk for python from conda-forge
+  # use pip install docker
