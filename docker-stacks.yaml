@@ -6,6 +6,9 @@ dependencies:
   - pytest
   - six  
   - tabulate
-  # - docker
-  # conda couldn't resolve docker sdk for python from conda-forge
-  # use pip install docker
+  - pip
+  - shellcheck
+  - flake8
+  - pip:
+    - docker
+    - bashate

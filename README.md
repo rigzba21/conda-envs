@@ -12,7 +12,10 @@ conda env create --file docker-stacks.yaml --name docker-stacks
 # activate the environment
 conda activate docker-stacks
 
-# install docker sdk for python
-pip install docker
+# verify conda packages
+conda list --explicit
+
+# verify pip packages
+pip list
 ```
 
