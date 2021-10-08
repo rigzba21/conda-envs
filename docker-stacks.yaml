@@ -1,4 +1,4 @@
-name: docker-stacks-testing
+name: docker-stacks
 channels:
   - conda-forge
 dependencies:
