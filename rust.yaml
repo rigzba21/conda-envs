@@ -1,0 +1,5 @@
+name: rust-default
+channels:
+  - conda-forge
+dependencies:
+  - rust=1.55.0
