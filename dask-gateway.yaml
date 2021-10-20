@@ -1,0 +1,17 @@
+name: dask-gateway-dev
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip  
+  - pytest
+  - go=1.16.9
+  - cryptography
+  - tornado
+  - traitlets
+  - sqlalchemy
+  - dask
+  - skein
+  - sphinx
+  - dask-sphinx-theme
+
