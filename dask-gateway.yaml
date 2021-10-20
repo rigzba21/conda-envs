@@ -1,3 +1,5 @@
+# include the environment variable GO111MODULE=auto during installation
+# export GO111MODULE=auto && mamba env create -f dask-gateway.yaml
 name: dask-gateway-dev
 channels:
   - conda-forge
@@ -6,6 +8,8 @@ dependencies:
   - pip  
   - pytest
   - go=1.16.9
+  - go-cgo
+  - compilers
   - cryptography
   - tornado
   - traitlets
