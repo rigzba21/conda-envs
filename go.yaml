@@ -3,3 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - go=1.16.9
+  - go-cgo
+  - compilers
+variables:
+  GO111MODULE: auto
