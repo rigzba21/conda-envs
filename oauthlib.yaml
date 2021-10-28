@@ -1,0 +1,12 @@
+name: oauthlib-dev
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pytest
+  - pytest-cov
+  - pyjwt 
+  - cryptography=35.0.0
+  - blinker
+    
