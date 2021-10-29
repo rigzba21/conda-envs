@@ -6,6 +6,8 @@ dependencies:
   - pip
   - pytest
   - pytest-cov
+  - tox
+  - virtualenv 
   - pyjwt 
   - cryptography=35.0.0
   - blinker
