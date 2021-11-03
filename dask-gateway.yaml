@@ -18,6 +18,11 @@ dependencies:
   - skein
   - sphinx
   - dask-sphinx-theme
+  # dask-gateway/continuous_integration/install.sh
+  - ipywidgets
+  - jupyterhub
+  - notebook
+  - trustme
   # dask-gateway/continuous_integration/kubernetes/install.sh
   - aiohttp
   - black
