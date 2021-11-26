@@ -1,0 +1,12 @@
+# include the environment variable GO111MODULE=on
+# go 1.16 and up
+name: dask-gateway-dev
+channels:
+  - conda-forge
+dependencies:
+  - go=1.16.10
+  - go-cgo
+  - compilers
+variables:
+  GO111MODULE: on
+
