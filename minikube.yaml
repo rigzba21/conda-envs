@@ -1,0 +1,7 @@
+name: minikube
+channels:
+  - conda-forge
+dependencies:
+  - kubernetes-helm
+  - kubernetes-client
+  - minikube
